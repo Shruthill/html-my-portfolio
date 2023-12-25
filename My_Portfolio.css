@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+li a:hover {
+    background-color: #3636364d;
+    border-bottom: 5px solid red;
+    font-size: 20px;
+  }
+
+  .active {
+    background-color: #3636364d;
+    border-bottom: 5px solid red;
+    font-size: 20px;
+  }
+
+  .profile {
+    position: relative;
+    left:200px;
+    top:100px;
+ }
+
+h1 {
+    left:100px;
+}
+
+#pic{
+    width:300px;
+    position: relative;
+    left:200px;
+    top:100px;
+    
+ }
+ #name {
+    color: red;
+    font-size: 40px;
+ } 
+ .intro {
+     color:black;
+     text-align: right;
+     font-size: 30px;
+     position: relative;
+     right:350px;
+     bottom: 200px;
+     border-right: 3px solid black;
+     padding-right: 50px;
+ }
+ h5 {
+    line-height: 0.2;
+     color : black;
+ }
+ #para1 {
+   font-style:italic;
+   font-size: 20px;
+ }
+ #resume {
+     border: 3px solid black;
+     border-radius: 10px;
+     background-color: black;
+     color:white ;
+     text-decoration: none;
+     font-family: monospace;
+     font-size: 25px;
+     padding: 10px;
+     margin-bottom:10px;
+ }
+
+ #about {
+    border: 2px solid black;
+    border-width: 100%;
+    
+ }
+
+ .aboutme {
+    text-align: center;
+    border: 2px solid white;
+    border-width: 100%;
+    font-size: 40px;
+ }
+
+ #para2 {
+    text-justify: auto;
+    text-align: center;
+    border: 2px inset grey;
+ }
